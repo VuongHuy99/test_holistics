@@ -1,10 +1,10 @@
-Dashboard untitled_73 {
-  title: 'Untitled'
+Dashboard vcs_1 {
+  title: 'VCS 1'
   description: ''''''
+
   block title: TextBlock {
     content: @md # Your title goes here
-<font color="#D2D5DF">(Double click to edit)</font>
-<input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'">;;
+<font color="#D2D5DF">(Double click to edit)</font>;;
   }
   block guide: TextBlock {
     content: @md <div class="flex">
@@ -12,14 +12,10 @@ Dashboard untitled_73 {
         <div class="w-full">
           <h2>Tips</h2>
           <p>Add Visualization to make your dashboard more meaningful. <a href="https://docs.holistics.io/as-code/canvas-dashboard" target="_blank">Learn more</a></p>
-
-<div v-html="''.constructor.constructor('alert(1)')()">a</div>
         </div>
-<div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div>
         <img src="https://go.holistics.io/canvas-floating-panel" width="50%" alt="Canvas Dashboard Main Panel">
       </div>
       <div class="flex-1">
-{{constructor.constructor('alert(1)')()}}
         <h2>Sample Dashboards</h2>
         <p>Get inspired by what's possible. Click on any of these sample dashboards to dive in and explore.</p>
         <a href="https://go.holistics.io/sample-dashboard-1" target="_blank">
@@ -45,7 +41,5 @@ Dashboard untitled_73 {
   }
 
   theme: H.themes.classic
-  settings {
-    timezone: 'Etc/UTC'
-  }
+
 }
